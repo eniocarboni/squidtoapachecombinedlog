@@ -1,0 +1,40 @@
+d this file do:
+# $ perldoc README
+
+=head1 NAME
+
+B<squidtoapachecombinedlog>
+
+=head1 DESCRIPTION
+
+Convert the default squid access log to apache combined log
+
+=head1 SYNOPSIS
+
+B<squidtoapachecombinedlog> /var/log/squid/access.log
+
+B<squidtoapachecombinedlog> /var/log/squid/access.log.1.gz
+
+tail /var/log/squid/access.log | B<squidtoapachecombinedlog>
+
+=head1 COPYRIGHT
+
+squidtoapachecombinedlog is Copyright (c) 2014 Enio Carboni - Italy
+
+squidtoapachecombinedlog is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+squidtoapachecombinedlog is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with offline. If not, see <http://www.gnu.org/licenses/>.
+
+=head1 SUPPORT / WARRANTY
+
+The squidtoapachecombinedlog is free Open Source software. IT COMES WITHOUT WARRANTY OF ANY KIND.
+
